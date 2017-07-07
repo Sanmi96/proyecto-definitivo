@@ -19,8 +19,12 @@ Estructura de carpetas
 -----------
 -- TO DO --
 -----------
-Cargar y guardar datos en la BD de los apartados: Factores de Ajuste, Horas y Costes, Pirámide y Condicionantes así como el campo editado en el apartado proyecto
+----Cargar y guardar datos en la BD de los apartados: Factores de Ajuste, Horas y Costes, Pirámide y Condicionantes así como el campo editado en el apartado proyecto
+
+
 Arreglar página de bienvenida para que se muestre al iniciar sesion y no solo la primera vez
+*****************Que los proyectos salgan desplegados por defecto a la página de bienvenida.
+*****************Que cuando pulsemos uno de estos proyectos se abra para modificarlo.
 
 Calcular TCF y ECF al cargar datos en el apartado de Factores de Ajuste
 En la base de datos no existen estas columnas asi que se tendran que calcular y guardar solo en la pagina web
