@@ -23,6 +23,7 @@ Estructura de carpetas
 
 
 Arreglar página de bienvenida para que se muestre al iniciar sesion y no solo la primera vez
+
 *****************Que los proyectos salgan desplegados por defecto a la página de bienvenida.
 *****************Que cuando pulsemos uno de estos proyectos se abra para modificarlo.
 

@@ -51,6 +51,7 @@ public class ControladorPrincipal {
     public Proyecto editRowAjaxProject(@PathVariable("idToEdit") int id) {
         idProyecto = id;
         Proyecto p = project.findByCode(id);
+        control = "proyecto";
         return p;
     }
 

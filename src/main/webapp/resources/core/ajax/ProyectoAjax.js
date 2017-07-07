@@ -81,6 +81,7 @@ function doAjaxChangeProject(id) {
         type : "POST",
         url : "project/edit/" + id,
         success : function(project) {
+            location.reload();
             console.log(project);
             doAjaxEdit();
             refreshProjectInfo(project);
@@ -90,11 +91,13 @@ function doAjaxChangeProject(id) {
             getAllPiramide();
             getAllCondicionantes(project);
             getAllItrs();
+
         },
         error : function(e) {
             console.log('Error: ' + e);
         }
     });
+
 }
 
 function doAjaxEditProject(id) {
