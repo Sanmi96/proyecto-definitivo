@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table-filter match-name="arquitectura_referencia"
+		match-catalog="HE">
+	</table-filter>
+	<table-filter match-name="casos_de_uso" match-catalog="HE"></table-filter>
+	<table-filter match-name="condicionantes" match-catalog="HE"></table-filter>
+	<table-filter match-name="cuoriginal" match-catalog="HE"></table-filter>
+	<table-filter match-name="delivery" match-catalog="HE"></table-filter>
+	<table-filter match-name="deliveryexterno" match-catalog="HE"></table-filter>
+	<table-filter match-name="factor_ajuste" match-catalog="HE"></table-filter>
+	<table-filter match-name="factor_complejidad_ambiental"
+		match-catalog="HE">
+	</table-filter>
+	<table-filter match-name="factor_complejidad_tecnica"
+		match-catalog="HE">
+	</table-filter>
+	<table-filter match-name="gestion" match-catalog="HE"></table-filter>
+	<table-filter match-name="gestionexterno" match-catalog="HE"></table-filter>
+	<table-filter match-name="gobierno" match-catalog="HE"></table-filter>
+	<table-filter match-name="gobiernoexterno" match-catalog="HE"></table-filter>
+	<table-filter match-name="integracion" match-catalog="HE"></table-filter>
+	<table-filter match-name="itr" match-catalog="HE"></table-filter>
+	<table-filter match-name="negocio" match-catalog="HE"></table-filter>
+	<table-filter match-name="perfiles" match-catalog="HE"></table-filter>
+	<table-filter match-name="persistencia" match-catalog="HE"></table-filter>
+	<table-filter match-name="piramide" match-catalog="HE"></table-filter>
+	<table-filter match-name="proyecto" match-catalog="HE"></table-filter>
+	<table-filter match-name="riesgo" match-catalog="HE"></table-filter>
+	<table-filter match-name="valoracionfinal" match-catalog="HE"></table-filter>
+	<table-filter match-name="vista" match-catalog="HE"></table-filter>
+</hibernate-reverse-engineering>
