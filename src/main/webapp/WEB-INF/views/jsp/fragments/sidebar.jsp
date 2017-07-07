@@ -40,17 +40,17 @@
 	<div id="wrapper">
     	<div class="nav-side-menu">
         	<div class="brand"><a href="/proyecto-definitivo/">USUARIO</a></div>
-         	<i class="glyphicon glyphicon-menu-hamburger toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+         	<i class="glyphicon glyphicon-menu-hamburger toggle-btn" data-toggle="collapsed" data-target="#menu-content"></i>
          	<div class="menu-list">
             	<ul id="menu-content" class="menu-content collapse out">
 
 					<li>
     	                             
-    	      			<a href="#" id="collapsable" data-toggle="collapse" data-target="#toggleDemo" class="collapsed" aria-expanded="false">
+    	      			<a href="#" id="collapsable" data-toggle="collapse" data-target="#toggleDemo" class="collapse" aria-expanded="true">
     	      				<b>Proyectos</b> <span class="fa arrow"></span>
     	      			</a>
     	      			
-    	      			<div class="collapse" id="toggleDemo" style="height: 0px;">
+    	      			<div class="collapse in" id="toggleDemo" aria-expanded ="true" style="height: 0px;">
     	      			<ul class="expandibles">
     	       				<div id="projectList">
     	       						
